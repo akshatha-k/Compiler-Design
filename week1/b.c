@@ -1,0 +1,12 @@
+int 5 0
+int 6 1
+int 7 1
+const 8 1
+char 8 1
+char 9 4
+while 15 1
+while 25 2
+while 33 3
+else 38 10
+else 41 10
+return 52 1
