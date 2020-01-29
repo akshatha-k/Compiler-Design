@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+int consequtivegcd( int m, int n)
+{
+int t;
+t=(n1>n2)?n2:n1;
+for(i=t;i>=1;i--){
+		if(n1%i==0&&n2%i==0){
+			res=i;
+			break;
+		}
+}
+}
+
+int main()
+{
+	clock_t start,end;
+	double cpu;
+	start=clock();
+	int m,n;
+	printf("enter the 2 numbers\n");
+	scanf("%d\n",&m);
+	scanf("%d",&n);
+	printf("gcd is %d\n");
+	consequtivegcd(m,n);
+	return 0;
+}
